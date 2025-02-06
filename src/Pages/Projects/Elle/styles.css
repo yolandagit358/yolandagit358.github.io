@@ -1,0 +1,44 @@
+.elle-content{
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.elle-background{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.2;
+    padding-top: 30px;
+}
+
+.elle-menu{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.elle-menu-item{
+    font-size: 30px;
+    cursor: pointer;
+}
+.elle-menu-item:hover{
+    text-decoration: underline;
+}
+
+.elle-img{
+    max-width: 100%;
+    max-height: 100%;
+}

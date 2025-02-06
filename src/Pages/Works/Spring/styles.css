@@ -1,0 +1,26 @@
+.marquee-img{
+    height: 300px;
+}
+
+.marquee-img-container{
+    height: 320px;
+    padding: 60px;
+}
+
+.spring-content{
+    overflow: hidden;
+}
+
+.marquee-thing{
+    position: relative;
+    left: -5vw;
+}
+
+.marquee-container{
+    padding-top: 30px;
+}
+
+.spring-pic-container{
+    padding: 0 !important;
+    margin: 0;
+}

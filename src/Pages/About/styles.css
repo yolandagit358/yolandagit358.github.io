@@ -1,0 +1,50 @@
+.about-intro-1{
+    font-family: "Lora";
+    font-style: italic;
+    font-size: 36px;
+    animation: fadeIn 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.about-intro-2{
+    font-family: "Lora";
+    font-weight: 500;
+    font-size: 32px;
+    animation: fadeIn 2s;
+    margin-bottom: 30px;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.about-content{
+    padding-top: 30px;
+    background-color: #e8e8e8;
+}
+
+.about-container{
+    padding-top: 60px;
+}
+
+.about-image{
+    height: 300px;
+    animation: fadeIn 2s;
+    animation-delay: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.about-desc{
+    width: 60%;
+    margin-top: 40px;
+    animation: fadeIn 2s;
+    animation-delay: 6s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

@@ -1,0 +1,27 @@
+.web-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.header-menu-item{
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.header-menu-link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.header-menu-link:hover{
+    text-decoration: underline;
+}
+
+.header-container{
+    width: 100%;
+    z-index: 2;
+}

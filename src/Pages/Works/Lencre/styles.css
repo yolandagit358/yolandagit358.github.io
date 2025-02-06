@@ -1,0 +1,30 @@
+.c-row{
+    height: 40vh;
+    display: flex;
+    background-color: #e8e8e8;
+}
+
+.c-col{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-img{
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.row-bottom{
+    border-top: 1px solid black;
+}
+
+.row-top{
+    border-top: 1px solid black;
+}
+
+.col-first{
+    border-right: 1px solid black;
+}
