@@ -1,26 +1,39 @@
-.marquee-img{
+.marquee-img {
     height: 300px;
 }
 
-.marquee-img-container{
+.marquee-img-container {
     height: 320px;
     padding: 60px;
 }
 
-.spring-content{
+.spring-content {
     overflow: hidden;
 }
 
-.marquee-thing{
+.marquee-thing {
     position: relative;
     left: -5vw;
 }
 
-.marquee-container{
+.marquee-container {
     padding-top: 30px;
 }
 
-.spring-pic-container{
+.spring-pic-container {
     padding: 0 !important;
     margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .spring-pic-img {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .marquee-container{
+        margin-left: -50%;
+    }
 }
